@@ -1,8 +1,7 @@
 function Home() {
   return (
-    <div>
-      <h1>Home</h1>
-      <p>Welcome to my portfolio!</p>
+    <div className="w-11/12 mx-auto bg-gray-300">
+      <h1>Cove</h1>
     </div>
   );
 }
