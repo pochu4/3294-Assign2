@@ -8,15 +8,6 @@ function Layout() {
 
         <>
             <Header />
-            <header>
-                <nav>
-                    <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
-                </nav>
-            </header>
 
             <main>
                 <Outlet />
