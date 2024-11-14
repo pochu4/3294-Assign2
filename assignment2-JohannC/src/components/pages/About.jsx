@@ -1,9 +1,9 @@
+import React from "react";
+import Hero from "../sections/Hero";
+
 function About () {
   return (
-    <div>
-      <h1>About</h1>
-      <p>This is the about page</p>
-    </div>
+    <Hero type="about" />
   )
 }
 

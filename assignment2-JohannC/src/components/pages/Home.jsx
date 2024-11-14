@@ -1,8 +1,14 @@
+import Hero from "../sections/Hero";
+import Introduction from "../sections/Introduction";
+
 function Home() {
   return (
-    <div className="w-11/12 mx-auto bg-gray-300">
-      <h1>Cove</h1>
-    </div>
+    <>
+      <Hero type="home" />
+      <Introduction type="home" />
+
+    </>
+
   );
 }
 

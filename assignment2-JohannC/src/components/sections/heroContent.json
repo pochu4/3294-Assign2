@@ -1,0 +1,32 @@
+{
+    "home": {
+      "title": "COVE",
+      "subtitle": "discover a serene escape",
+      "description": "select your stay",
+      "imageUrls": [
+        "../src/assets/resort1.jpeg",
+        "../src/assets/resortluxurysuite.jpg",
+        "../src/assets/roomdeluxe.jpg"
+      ]
+    },
+    "accomodation": {
+      "title": "Accomodations",
+      
+      "description": "the perfect escape from your everyday life",
+      "imageUrls": [
+        "../src/assets/resort-pool.jpeg",
+        "../src/assets/flowers.jpg",
+        "../src/assets/roomdeluxe.jpg"
+      ]
+    },
+    "about": {
+      "title": "Your Oasis Awaits",
+      "subtitle": "Welcome",
+      "description": "At Cove, we invite you to experience the blend of luxury and nature.",
+      "imageUrls": [
+        "../src/assets/spa.jpg",
+        "../src/assets/resort2.jpeg",
+        "../src/assets/resort-pool-1.jpg"
+      ]
+    }
+  }
