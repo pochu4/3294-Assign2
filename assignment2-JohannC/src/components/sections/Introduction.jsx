@@ -13,7 +13,7 @@ export default function Introduction({type="home"}) {
 
     return (
 
-        <div className=" w-10/12 mx-auto text-center flex justify-center items-center my-20">
+        <div className=" w-1/4 mx-auto text-center flex justify-center items-center my-20">
             <h2 className="font-playfair text-2xl md:w-1/3 md:w-full">{intro.title}</h2>
         </div>
 
