@@ -1,5 +1,7 @@
 import Hero from "../sections/Hero";
 import Introduction from "../sections/Introduction";
+// Import transition component
+import transition from "../sections/Transitions";
 
 function Home() {
   return (
@@ -12,4 +14,5 @@ function Home() {
   );
 }
 
-export default Home;
+// Wrapping the entire homepage in the transition component 
+export default transition(Home);

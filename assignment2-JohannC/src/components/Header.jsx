@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Form, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import IonIcon from "@reacticons/ionicons";
 
 function Header() {
@@ -27,9 +27,9 @@ function Header() {
             </button>
 
             <div className={`absolute xl:hidden top-12 left-0 w-full bg-white flex flex-col items-center gap-6 font-semibold text-lg transform transition-transform ${isMenuOpen ? "opacity-100" : "opacity-0"}`} style={{ transition: "transform 0.3s ease, opacity 0.3s ease" }}>
-                <li className="list-none w-full text-center p-4 hover:bg-yellow-300 hover:text-black transition-all cursor-pointer font-lato font-medium">Home</li>
-                <li className="list-none w-full text-center p-4 hover:bg-yellow-300 hover:text-black transition-all cursor-pointer font-lato font-medium">Accomodations</li>
-                <li className="list-none w-full text-center p-4 hover:bg-yellow-300 hover:text-black transition-all cursor-pointer font-lato font-medium">About</li>
+                <li className="list-none w-full text-center p-4 hover:bg-yellow-300 hover:text-black transition-all cursor-pointer font-lato font-medium"><Link to="/">Home</Link></li>
+                <li className="list-none w-full text-center p-4 hover:bg-yellow-300 hover:text-black transition-all cursor-pointer font-lato font-medium"><Link to="/accomodations">Accomodations</Link></li>
+                <li className="list-none w-full text-center p-4 hover:bg-yellow-300 hover:text-black transition-all cursor-pointer font-lato font-medium"><Link to="/about">About</Link></li>
                 <li className="list-none w-full text-center p-4 hover:bg-red-300 hover:text-black transition-all cursor-pointer font-lato font-medium">Book Now</li>
             </div>
         </header>

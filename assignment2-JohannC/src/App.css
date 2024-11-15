@@ -1,1 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+/* CSS for framer motion components (motion.div) */
+.slide-in {
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgb(0, 0, 0);
+    transform-origin: bottom;
+}
+
+.slide-out {
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgb(0, 0, 0);
+    transform-origin: top;
+}
