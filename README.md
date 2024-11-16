@@ -1,9 +1,7 @@
 # assignment2-johannc-ws2
- Assignment 2 for Web Scripting 2: React.js Website
- This website is for MDIA 3294 and is a fictional resort. 
+ Assignment 2 for Web Scripting 2: React.js Website including 3 third party packages
+ This website is for MDIA 3294 and is about a fictional resort. 
 
-
-Certain Content for the page is 
  
 
 ## Project Setup: 
@@ -13,18 +11,30 @@ cd assignment2-JohannC
 npm run dev
 ```
 
-### TAILWIND: 
+## Third Party Packages
+Tailwind CSS, React Router, Framer Motion, React Slick Slider
+
+
+
+
+#### Tailwind CSS: 
+```bash
 npm install tailwindcss@latest postcss@latest autoprefixer@latest --save,
-"./src/**/*.{js,ts,jsx,tsx}" => Into the tailwind config file,
-@tailwind base, @tailwind components, @tailwind utilities => Into index.css,
+"./src/**/*.{js,ts,jsx,tsx}" => Into the tailwind config file
+@tailwind base, @tailwind components, @tailwind utilities => Into index.css
+```
 
 
-### REACT ROUTER:
+#### React Router:
+```bash
 npm install react-router-dom --save
+```
 
 
-### FRAMER MOTION:
+#### Framer Motion:
+```bash
 npm install framer-motion --save
+```
 
 - Creating a Dedicated file for the transition containing Framer motion components of motion.div
 - Styling the Transition Component in App.css
@@ -33,11 +43,11 @@ npm install framer-motion --save
 - Wrap the routing in animate presence and setting mode to wait, this makes it so that it waits for the first component to finish before the new component(in this case page) comes in
 - Trigger the animation with location, setting routes 
 
-### REACT SLICK:
+#### React Slick Slider:
+```bash
 npm install react-slick --save
+```
 
-Image Sourcing: 
-- Pexels, Freepik
+## References: 
 
-
-
+Images Sourcing: Pexels, Freepik
