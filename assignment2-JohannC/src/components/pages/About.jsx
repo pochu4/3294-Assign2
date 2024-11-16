@@ -9,7 +9,7 @@ import transition from "../sections/Transitions";
 function About () {
   return (
     // Hero Component with type, 
-    <Hero type="about" />
+    <Hero contentType="about" />
   )
 }
 

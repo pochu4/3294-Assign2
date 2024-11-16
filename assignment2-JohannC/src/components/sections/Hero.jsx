@@ -3,21 +3,22 @@ import React, { useState, useEffect } from "react";
 // Importing Content from JSON file storing data for the text and image content
 import heroContent from "./heroContent.json";
  
-// Hero Function with type prop for "home" setting the content to home as a backup if nothing loads
-export default function Hero({ type = "home" }) {
+// Hero Function with contentType prop
+// Probably should have been set to content for consistency of prop usages all throughout the components however, I had already set "content" as a variable within the function below
+export default function Hero({ contentType }) {
 
-    // Store data for hero section and differentiating each by type
+    // Store data for hero section and differentiating each by content
     // setContent for updating the content
     const [content, setContent] = useState({});
 
 
-    // runs based on which type prop is used in the pages (ex. <Hero type="home"/>)
-    // if hero content has been set a type, runs setContent to update the information from the json file
+    // runs based on which content prop is used in the pages (ex. <Hero content="home"/>)
+    // if hero content has been set a content, runs setContent to update the information from the json file
     useEffect(() => {
-        if (heroContent[type]) {
-            setContent(heroContent[type]);
+        if (heroContent[contentType]) {
+            setContent(heroContent[contentType]);
         }
-    }, [type]);
+    }, [contentType]);
 
 
     return (

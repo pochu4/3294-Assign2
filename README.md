@@ -1,8 +1,10 @@
 # assignment2-johannc-ws2
  Assignment 2 for Web Scripting 2: React.js Website
+ This website is for MDIA 3294 and is a fictional resort. 
+
+ 
 
 Project Setup: 
-
 npx create-vite@latest assignment2-JohannC --template react
 cd assignment1-JohannC
 npm run dev
@@ -27,9 +29,11 @@ npm install framer-motion --save
 - Wrap the routing in animate presence and setting mode to wait, this makes it so that it waits for the first component to finish before the new component(in this case page) comes in
 - Trigger the animation with location, setting routes 
 
-
+REACT SLICK:
+npm install react-slick --save
 
 Image Sourcing: 
-
 - Pexels, Freepik
+
+
 
