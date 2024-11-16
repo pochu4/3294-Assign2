@@ -10,7 +10,7 @@ function Accomodations() {
 
   return (
     <>
-      <Hero contentType="accomodation"/>
+      <Hero content="accomodation"/>
       <Introduction content="accomodation"/>
 
       <Rooms content="reverse"/>

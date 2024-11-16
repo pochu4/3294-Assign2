@@ -20,8 +20,8 @@ Tailwind CSS, React Router, Framer Motion, React Slick Slider
 #### Tailwind CSS: 
 ```bash
 npm install tailwindcss@latest postcss@latest autoprefixer@latest --save,
-"./src/**/*.{js,ts,jsx,tsx}" => Into the tailwind config file
-@tailwind base, @tailwind components, @tailwind utilities => Into index.css
+"./src/**/*.{js,ts,jsx,tsx}" #Into the tailwind config file
+@tailwind base, @tailwind components, @tailwind utilities #Into index.css
 ```
 
 
@@ -35,7 +35,7 @@ npm install react-router-dom --save
 ```bash
 npm install framer-motion --save
 ```
-
+##### Steps taken:
 - Creating a Dedicated file for the transition containing Framer motion components of motion.div
 - Styling the Transition Component in App.css
 - Import New transition Component into each page and wrapping the entirety of it at the export stage 
@@ -49,5 +49,8 @@ npm install react-slick --save
 ```
 
 ## References: 
-
 Images Sourcing: Pexels, Freepik
+
+## useEffect - Scroll to Top
+As required by the project, I used the useEffect hook to update the scroll position of the page changes.
+Unlike traditional navigation, React doesn't reload the page completely and maintains its scroll position even when the page changes. 

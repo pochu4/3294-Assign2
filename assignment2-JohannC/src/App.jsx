@@ -15,6 +15,9 @@ import Home from "./components/pages/Home";
 import About from "./components/pages/About";
 import Accomodations from "./components/pages/Accomodations";
 
+// Import Scroll to top
+import ScrollToTop from "./components/sections/ScrollToTop";
+
 
 
 function App() {
@@ -22,14 +25,17 @@ function App() {
   const location = useLocation();
 
   return (
+    // Framer Motion Wrapper and setting mode to wait, this makes it so that it waits for the first motion.div to complete its animation
     <AnimatePresence mode="wait">
-      <Routes location={location} key={location.pathname}>
-        <Route path="/" element={<Layout />}>
-          <Route index element={<Home />} />
-          <Route path="accomodations" element={<Accomodations />} />
-          <Route path="about" element={<About />} />
-        </Route>
-      </Routes>
+      {/* ScrollToTop Component to make the page scoll to the top when navigating throughout pages */}
+      <ScrollToTop />
+        <Routes location={location} key={location.pathname}>
+          <Route path="/" element={<Layout />}>
+            <Route index element={<Home />} />
+            <Route path="accomodations" element={<Accomodations />} />
+            <Route path="about" element={<About />} />
+          </Route>
+        </Routes>
     </AnimatePresence>
 
   )

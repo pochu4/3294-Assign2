@@ -1,8 +1,8 @@
 {
     "home": {
       "title": "COVE",
-      "subtitle": "discover a serene escape",
-      "description": "select your stay",
+      "subtitle": "discover a serene escape at",
+      "description": "crafted specifically for you",
       "imageUrls": [
         "../src/assets/resort1.jpeg",
         "../src/assets/resortluxurysuite.jpg",
@@ -11,8 +11,8 @@
     },
     "accomodation": {
       "title": "Accomodations",
-      
-      "description": "the perfect escape from your everyday life",
+      "subtitle": "the perfect getaway",
+      "description": "select your stay",
       "imageUrls": [
         "../src/assets/resort-pool.jpeg",
         "../src/assets/flowers.jpg",

@@ -1,5 +1,8 @@
 // Displaying Rooms Component
+// For the future: 
 // Still needs to store information on a json file to have different room names, descriptions, and prices
+// import { Link } from "react-router-dom";
+// and add ctas to subpages with to="/accomodations/room1" 
 import React from "react";
 
 import SimpleSlider from "../sections/SlickSlider";
