@@ -7,11 +7,11 @@ Certain Content for the page is
  
 
 ## Project Setup: 
- ```bash
-   npx create-vite@latest assignment2-JohannC --template react
-   cd assignment2-JohannC
-   npm run dev
-   ```
+```bash
+npx create-vite@latest assignment2-JohannC --template react
+cd assignment2-JohannC
+npm run dev
+```
 
 ### TAILWIND: 
 npm install tailwindcss@latest postcss@latest autoprefixer@latest --save,
