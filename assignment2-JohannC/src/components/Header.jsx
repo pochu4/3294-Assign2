@@ -12,9 +12,9 @@ function Header() {
             <Link to="/"><img src="src/assets/Logo-01.png" alt="Cove Logo" className="w-16" /></Link>
 
             <ul className="hidden xl:flex items-end gap-12 font-semibold text-black">
-                <li className="p-3  hover:border-b hover:border-black cursor-pointer"><Link to="/" className="font-lato font-medium">Home</Link></li>
-                <li className="p-3  hover:border-b hover:border-black cursor-pointer"><Link to="/accomodations" className="font-lato font-medium">Accomodations</Link></li>
-                <li className="p-3  hover:border-b hover:border-black cursor-pointer"><Link to="/about" className="font-lato font-medium">About</Link></li>
+                <li className="p-3 hover:border-b hover:border-black cursor-pointer"><Link to="/" className="font-lato font-medium">Home</Link></li>
+                <li className="p-3 hover:border-b hover:border-black cursor-pointer"><Link to="/accomodations" className="font-lato font-medium">Accomodations</Link></li>
+                <li className="p-3 hover:border-b hover:border-black cursor-pointer"><Link to="/about" className="font-lato font-medium">About</Link></li>
             </ul>
 
             <div className="relative hidden md:flex items-center justify-center gap-3">
